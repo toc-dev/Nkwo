@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="APIControllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoggerService\Nkwo.LoggerService.csproj" />
+    <ProjectReference Include="..\Nkwo.AppCore\Nkwo.AppCore.csproj" />
+    <ProjectReference Include="..\Nkwo.Domain\Nkwo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

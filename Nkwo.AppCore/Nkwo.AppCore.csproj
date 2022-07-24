@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts\Nkwo.Contracts.csproj" />
+    <ProjectReference Include="..\LoggerService\Nkwo.LoggerService.csproj" />
+    <ProjectReference Include="..\Nkwo.Domain\Nkwo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
